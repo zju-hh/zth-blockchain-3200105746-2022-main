@@ -30,7 +30,7 @@
 
    下图是已经更新好了的截图，注意检查`./frontend/src/utils/abis`之中的三个json文件是否与`./contracts/artifacts/contracts`之中的json文件一致
 
-   ![image-20221105211312755](.\pics\image-20221105211312755.png)
+   ![image-20221105211312755]([.\pics\image-20221105211312755.png](https://github.com/zju-hh/zth-blockchain-3200105746-2022-main/blob/main/pics/image-20221105211312755.png))
 
 6. 在 `./frontend` 中启动前端程序，运行如下的命令：
 
