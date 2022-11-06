@@ -30,7 +30,7 @@
 
    下图是已经更新好了的截图，注意检查`./frontend/src/utils/abis`之中的三个json文件是否与`./contracts/artifacts/contracts`之中的json文件一致
 
-   ![image]([.\pics\image-20221105211312755.png](https://github.com/zju-hh/zth-blockchain-3200105746-2022-main/blob/main/pics/image-20221105211312755.png))
+   ![image-20221105211312755](./pics/image-20221105211312755.png)
 
 6. 在 `./frontend` 中启动前端程序，运行如下的命令：
 
@@ -173,96 +173,96 @@
 
 1. 登陆界面：
 
-   ![image-20221106232507085](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106232507085.png)
+   ![image-20221106232507085](./pics/image-20221106232507085.png)
 
-   ![image-20221106232521820](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106232521820.png)
+   ![image-20221106232521820](./pics/image-20221106232521820.png)
 
 2. 连接钱包之后：
 
-   ![image-20221106232612786](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106232612786.png)
+   ![image-20221106232612786](./pics/image-20221106232612786.png)
 
    之后我们领取通政积分
 
-   ![image-20221106232641906](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106232641906.png)
+   ![image-20221106232641906](./pics/image-20221106232641906.png)
 
-   ![image-20221106232650123](C:\Users\zth20\AppData\Roaming\Typora\typora-user-images\image-20221106232650123.png)
+   ![image-20221106232650123](./pics/image-20221106232650123.png)
 
    再次领取通政积分会报错
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106232840758.png" alt="image-20221106232840758" style="zoom:50%;" />
+   <img src="./pics/image-20221106232840758.png" alt="image-20221106232840758" style="zoom:50%;" />
 
 3. 之后我们测试提交提案的功能
    在输入框我们会有输入信息的提示，用户可以根据提示来书写提案
 
-   ![image-20221106233229615](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233229615.png)
+   ![image-20221106233229615](./pics/image-20221106233229615.png)
 
    用户完成信息的输入，并点击提交提案按钮
 
-   ![image-20221106233134411](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233134411.png)
+   ![image-20221106233134411](./pics/image-20221106233134411.png)
 
    这个提交提案的交易会记录在区块链之中
 
-   ![image-20221106233203062](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233203062.png)
+   ![image-20221106233203062](./pics/image-20221106233203062.png)
 
    提交成功之后会显示提示信息，包括你提交提案的序号也会提示在内
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233216287.png" alt="image-20221106233216287" style="zoom: 67%;" />
+   <img src="./pics/image-20221106233216287.png" alt="image-20221106233216287" style="zoom: 67%;" />
 
    提交成功之后刷新页面，可以看到你的提案在提案列表之中，同时包括是否过期的信息
 
-   ![image-20221106233239018](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233239018.png)
+   ![image-20221106233239018](./pics/image-20221106233239018.png)
 
    我们可以看到，因为每次提交提案需要花费10个代币，所以此时可以看到剩余的通政积分还剩90
 
-   ![image-20221106233326380](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233326380.png)
+   ![image-20221106233326380](./pics/image-20221106233326380.png)
 
    
 
 4. 投票功能：
    之后测试我们的投票功能，如果我们在投票栏输入的index不在范围之内，会弹出错误信息，如图所示
 
-   ![image-20221106233315313](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233315313.png)
+   ![image-20221106233315313](./pics/image-20221106233315313.png)
 
    我们选择index为1，也就是刚才提交到提案来投票，投票行为会记录在区块链上
 
-   ![image-20221106233348352](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233348352.png)
+   ![image-20221106233348352](./pics/image-20221106233348352.png)
 
    投票成功之后会显示投票成功后的提示信息
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233401587.png" alt="image-20221106233401587" style="zoom:67%;" />
+   <img src="./pics/image-20221106233401587.png" alt="image-20221106233401587" style="zoom:67%;" />
 
    第二次投票过程与第一次相同，在此略过第二次投票过程
 
    在我们进行第三次投票的过程之中，以太坊交易会报错并弹出错误信息，如下图所示
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233426436.png" alt="image-20221106233426436" style="zoom:50%;" />
+   <img src="./pics/image-20221106233426436.png" alt="image-20221106233426436" style="zoom:50%;" />
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106233510896.png" alt="image-20221106233510896" style="zoom:50%;" />
+   <img src="./pics/image-20221106233510896.png" alt="image-20221106233510896" style="zoom:50%;" />
 
 5. 刷新结算功能：
 
    五分钟之后我们刷新页面可以看到，该提案的过期状态已经变为“已过期”，在这个时候我们点击结算按钮，就会收到合约给提案者奖励的ERC20代币
 
-   ![image-20221106235533743](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106235533743.png)
+   ![image-20221106235533743](./pics/image-20221106235533743.png)
 
    这个交易开始界面如上，完成交易后代币结果以及提示信息如下，确实是95没错
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106235611472.png" alt="image-20221106235611472" style="zoom: 67%;" />
+   <img src="./pics/image-20221106235611472.png" alt="image-20221106235611472" style="zoom: 67%;" />
 
-   <img src="C:\Users\zth20\AppData\Roaming\Typora\typora-user-images\image-20221106235643503.png" alt="image-20221106235643503" style="zoom:67%;" />
+   <img src="./pics/image-20221106235643503.png" alt="image-20221106235643503" style="zoom:67%;" />
 
-   ![image-20221106235655557](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221106235655557.png)
+   ![image-20221106235655557](./pics/image-20221106235655557.png)
 
    补充说明，当我们提案没有通过的话，我们也会显示信息，如下图所示
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221107000027577.png" alt="image-20221107000027577" style="zoom:67%;" />
+   <img src="./pics/image-20221107000027577.png" alt="image-20221107000027577" style="zoom:67%;" />
 
 6. 发送纪念品功能：
    当三个提案都通过之后，提案者会收到一个纪念品，具体的代码可以看上一个部分陈述，也可以去源代码的MyERC721合约之后看
 
-   <img src="C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221107000429616.png" alt="image-20221107000429616" style="zoom:67%;" />
+   <img src="./pics/image-20221107000429616.png" alt="image-20221107000429616" style="zoom:67%;" />
 
-   ![image-20221107000551511](C:/Users/zth20/AppData/Roaming/Typora/draftsRecover/pics/image-20221107000551511.png)
+   ![image-20221107000551511](./pics/image-20221107000551511.png)
 
    之后再有新的提案被同意通过也无法在获得纪念品了，会弹出错误信息，因为我在这里定义该纪念品一人至多一个。
 
